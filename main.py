@@ -6,7 +6,8 @@
 # These might work for other datums/speroids but have not been tested
 
 import math
-
+def get_convergence():
+    return "NOT IMPLEMENTED YET"
 
 def get_combined_scale_factor(lat, lng, ellipsoid_height, a, e2, zone):
     k0 = 0.9996  # scale factor at the central meridian
