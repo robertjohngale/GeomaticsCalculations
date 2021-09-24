@@ -26,8 +26,7 @@ def get_UTMconvergence(lat,lng,zone):
     utmConv = utmConv * (180 / math.pi);
     return utmConv;
 
-def UTMToLatLong():
-    return "NOT IMPLEMENTED"
+
 
 def latlongto3TM(lat,lng):
     return "NOT EMPLMENTED"
